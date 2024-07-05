@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b0d0e; /* Cor de fundo geral */
+  color: #ff0a68; /* Cor do texto geral */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Alinha todo o conteúdo ao centro horizontalmente */
+  align-items: center; /* Alinha todo o conteúdo ao centro verticalmente */
+  min-height: 100vh; /* Para ocupar pelo menos toda a altura da tela */
+}
+
+.app-container {
+  max-width: 1000px; /* Reduzi um pouco para garantir que não ultrapasse a largura da tela */
+  width: 100%; /* Adicionado para garantir que ocupe toda a largura disponível */
+  padding: 20px;
+  background-color: #111; /* Cor de fundo do container principal */
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #444; /* Linha separadora */
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #333; /* Cor de fundo dos links */
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Cor de fundo dos links ao passar o mouse */
+}
+
+.home-container {
+  max-width: 800px;
+  width: 100%; /* Adicionado para garantir que ocupe toda a largura disponível */
+  padding: 20px;
+  background-color: #222; /* Cor de fundo do container home */
+  border-radius: 8px;
+  text-align: center; /* Centraliza o conteúdo dentro do container */
+  margin-top: 20px; /* Adiciona um espaço acima do container */
+}
+
+.home-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.home-container p {
+  font-size: 18px;
+}
